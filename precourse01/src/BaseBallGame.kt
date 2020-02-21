@@ -8,19 +8,47 @@ class NumberBaseball{
     var inputNumbers = IntArray(3, {0})
     var numberCount = 0
 
+    fun playGame(){
+        initNumbers(3)
+
+        while(true){
+            inputNumbers()
+
+            if(isAnswer()){
+                restartGame()
+                continue
+            }
+
+            checkNumbers()
+        }
+    }
     fun inputNumbers(){
         val scanner = Scanner(System.`in`)
 
         print("숫자를 입력해주세요 : ")
         inputNumbers = IntArray(3) {scanner.nextInt()}
     }
-    fun isAnswer(): Boolean {
-        for (i in 0 until 3){
-            if(numbers[i] != inputNumbers[i])
-                return false
+    fun restartGame(){
+        println("게임을 새로 시작하려면 1, 종료하려면 2를 입력하세요")
+
+        while(true){
+            val scanner = Scanner(System.`in`)
+            val exitFlag = scanner.nextInt()
+            if(exitFlag == 1) {
+                initNumbers(3)
+                println("게임을 재시작합니다.")
+                return
+            }
+            if(exitFlag == 2) {
+                println("게임을 종료합니다.")
+                exitProcess(1)
+            }
         }
-        println("3개의 숫자를 모두 맞히셨습니다! 게임 종료")
-        return true
+    }
+    fun initNumbers(numberCount: Int){
+        this.numberCount = numberCount
+        this.numbers = IntArray(numberCount)
+        makeRandomNumbers()
     }
     fun makeRandomNumbers(){
         var checkedNumbers = BooleanArray(10){false}
@@ -33,10 +61,28 @@ class NumberBaseball{
             checkedNumbers[randomNumber] = true
         }
     }
-    fun initNumbers(numberCount: Int){
-        this.numberCount = numberCount
-        this.numbers = IntArray(numberCount)
-        makeRandomNumbers()
+    fun isAnswer(): Boolean {
+        for (i in 0 until 3){
+            if(numbers[i] != inputNumbers[i])
+                return false
+        }
+        println("3개의 숫자를 모두 맞히셨습니다! 게임 종료")
+        return true
+    }
+    fun checkNumbers(){
+        var nothing = true
+        if(checkStrike()){
+            nothing = false
+        }
+        if(checkBall()){
+            nothing = false
+        }
+        if(nothing){
+            print("Nothing!!")
+        }
+        println()
+
+        return
     }
     fun checkStrike(): Boolean{
         var strike = 0
@@ -62,52 +108,6 @@ class NumberBaseball{
             return true
         }
         return false
-    }
-    fun checkNumbers(){
-        var nothing = true
-        if(checkStrike()){
-            nothing = false
-        }
-        if(checkBall()){
-            nothing = false
-        }
-        if(nothing){
-            print("Nothing!!")
-        }
-        println()
-
-        return
-    }
-    fun restartGame(){
-        println("게임을 새로 시작하려면 1, 종료하려면 2를 입력하세요")
-
-        while(true){
-            val scanner = Scanner(System.`in`)
-            val exitFlag = scanner.nextInt()
-            if(exitFlag == 1) {
-                initNumbers(3)
-                println("게임을 재시작합니다.")
-                return
-            }
-            if(exitFlag == 2) {
-                println("게임을 종료합니다.")
-                exitProcess(1)
-            }
-        }
-    }
-    fun playGame(){
-        initNumbers(3)
-
-        while(true){
-            inputNumbers()
-
-            if(isAnswer()){
-                restartGame()
-                continue
-            }
-
-            checkNumbers()
-        }
     }
 }
 
