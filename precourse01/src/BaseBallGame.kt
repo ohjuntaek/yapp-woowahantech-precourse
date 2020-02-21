@@ -2,14 +2,15 @@ import java.util.*
 import kotlin.random.Random
 import kotlin.system.exitProcess
 
-class NumberBaseball{
+class NumberBaseball(numberCount: Int){
 
-    var numbers = IntArray(3, { (0..10).random() })
-    var inputNumbers = IntArray(3, {0})
-    var numberCount = 0
+    private var numbers = IntArray(3, { (0..10).random() })
+    private var inputNumbers = IntArray(3, {0})
+    private val numberCount = numberCount
+
 
     fun playGame(){
-        initNumbers(3)
+        initNumbers()
 
         while(true){
             inputNumbers()
@@ -22,20 +23,20 @@ class NumberBaseball{
             checkNumbers()
         }
     }
-    fun inputNumbers(){
+    private fun inputNumbers(){
         val scanner = Scanner(System.`in`)
 
         print("숫자를 입력해주세요 : ")
         inputNumbers = IntArray(3) {scanner.nextInt()}
     }
-    fun restartGame(){
+    private fun restartGame(){
         println("게임을 새로 시작하려면 1, 종료하려면 2를 입력하세요")
 
         while(true){
             val scanner = Scanner(System.`in`)
             val exitFlag = scanner.nextInt()
             if(exitFlag == 1) {
-                initNumbers(3)
+                initNumbers()
                 println("게임을 재시작합니다.")
                 return
             }
@@ -45,12 +46,11 @@ class NumberBaseball{
             }
         }
     }
-    fun initNumbers(numberCount: Int){
-        this.numberCount = numberCount
+    private fun initNumbers(){
         this.numbers = IntArray(numberCount)
         makeRandomNumbers()
     }
-    fun makeRandomNumbers(){
+    private fun makeRandomNumbers(){
         var checkedNumbers = BooleanArray(10){false}
         var ind = 0
 
@@ -61,15 +61,15 @@ class NumberBaseball{
             checkedNumbers[randomNumber] = true
         }
     }
-    fun isAnswer(): Boolean {
-        for (i in 0 until 3){
+    private fun isAnswer(): Boolean {
+        for (i in 0 until numberCount){
             if(numbers[i] != inputNumbers[i])
                 return false
         }
         println("3개의 숫자를 모두 맞히셨습니다! 게임 종료")
         return true
     }
-    fun checkNumbers(){
+    private fun checkNumbers(){
         var nothing = true
         if(checkStrike()){
             nothing = false
@@ -84,9 +84,9 @@ class NumberBaseball{
 
         return
     }
-    fun checkStrike(): Boolean{
+    private fun checkStrike(): Boolean{
         var strike = 0
-        for (i in 0..2){
+        for (i in 0 until numberCount){
             if(numbers[i] == inputNumbers[i]) strike++
         }
         if (strike > 0){
@@ -95,10 +95,10 @@ class NumberBaseball{
         }
         return false
     }
-    fun checkBall(): Boolean{
+    private fun checkBall(): Boolean{
         var ball = 0
-        for(i in 0..2){
-            for(j in 0..2){
+        for(i in 0 until numberCount){
+            for(j in 0 until numberCount){
                 if(i == j) continue
                 if(numbers[i] == inputNumbers[j]) ball++
             }
@@ -112,5 +112,5 @@ class NumberBaseball{
 }
 
 fun main(args: Array<String>) {
-    NumberBaseball().playGame()
+    NumberBaseball(3).playGame()
 }
