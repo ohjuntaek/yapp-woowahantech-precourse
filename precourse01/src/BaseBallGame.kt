@@ -32,9 +32,6 @@ class NumberBaseball{
             numbers[ind++] = randomNumber
             checkedNumbers[randomNumber] = true
         }
-        for(i in 0 .. 2){
-            print(numbers[i])
-        }
     }
     fun initNumbers(numberCount: Int){
         this.numberCount = numberCount
