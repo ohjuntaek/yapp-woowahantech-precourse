@@ -8,7 +8,6 @@ class NumberBaseball(numberCount: Int){
     private var inputNumbers = IntArray(3, {0})
     private val numberCount = numberCount
 
-
     fun playGame(){
         initNumbers()
 
