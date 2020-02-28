@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cd6cd20b-2aeb-4f2c-a21c-30e1a105ac77" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jdk_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-test-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-test.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/yapp-woowahantech-precourse/ApplicationKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/yapp-woowahantech-precourse/CarController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/yapp-woowahantech-precourse/CarView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/yapp-woowahantech-precourse/META-INF/yapp-woowahantech-precourse.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/yapp-woowahantech-precourse/Model/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/yapp-woowahantech-precourse/Model/RandomNumberMaker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yapp-woowahantech-precourse.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yapptecour02/Application.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yapptecour02/CarController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yapptecour02/CarView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yapptecour02/Model/Car.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yapptecour02/Model/RandomNumberMaker.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YNj2pLq4zia97GtBnAa7d03dmS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="Model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\yapp-woowahantech-precourse" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ApplicationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="yapp-woowahantech-precourse" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ApplicationKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.ApplicationKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd6cd20b-2aeb-4f2c-a21c-30e1a105ac77" name="Default Changelist" comment="" />
+      <created>1582789741564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582789741564</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="739" y="166" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1582860489688">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="166" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582860489688" />
+    <state x="507" y="114" key="CommitChangelistDialog2" timestamp="1582870919669">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="507" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582870919669" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1582792098165">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582792098165" />
+    <state x="688" y="387" key="Github.CreatePullRequestDialog" timestamp="1582870779574">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="688" y="387" key="Github.CreatePullRequestDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582870779574" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582869569625">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582869569625" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582869569624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582869569624" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582869569624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582869569624" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582869569624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582869569624" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1582859961748">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582859961748" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1582859961748">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582859961748" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1582859961748">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582859961748" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1582859961748">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582859961748" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1582789959390">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582789959390" />
+    <state x="652" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582855201131">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="652" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582855201131" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582866969183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582866969183" />
+  </component>
+</project>
