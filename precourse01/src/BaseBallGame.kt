@@ -96,6 +96,7 @@ class NumberBaseball(numberCount: Int){
     }
     private fun checkBall(): Boolean{
         var ball = 0
+
         for(i in 0 until numberCount){
             for(j in 0 until numberCount){
                 if(i == j) continue
